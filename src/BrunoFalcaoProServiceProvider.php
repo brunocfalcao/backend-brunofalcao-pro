@@ -3,7 +3,7 @@
 namespace BrunoFalcaoPro;
 
 use Eduka\Abstracts\Classes\EdukaServiceProvider;
-use Illuminate\Support\Facades\Vite;
+use Illuminate\Support\Facades\Blade;
 
 final class BrunoFalcaoProServiceProvider extends EdukaServiceProvider
 {
@@ -11,7 +11,7 @@ final class BrunoFalcaoProServiceProvider extends EdukaServiceProvider
     {
         $this->dir = __DIR__;
 
-        $this->customViewNamespace(__DIR__.'/../resources/views', 'backend');
+        Blade::anonymousComponentPath(__DIR__.'/../resources/views/components');
 
         parent::boot();
     }
