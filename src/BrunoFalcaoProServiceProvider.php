@@ -15,9 +15,4 @@ final class BrunoFalcaoProServiceProvider extends EdukaServiceProvider
 
         parent::boot();
     }
-
-    public function register()
-    {
-        //
-    }
 }
