@@ -13,7 +13,6 @@
     "require": {
         "php": "^8.2",
         "brunocfalcao/eduka-nereus": "dev-master",
-        "brunocfalcao/backend-brunofalcao-pro": "dev-master",
         "blade-ui-kit/blade-heroicons": "^2.3",
         "blade-ui-kit/blade-icons": "^1.6",
         "brunocfalcao/blade-feather-icons": "^4.0"
