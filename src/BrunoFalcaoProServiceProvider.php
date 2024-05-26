@@ -2,6 +2,7 @@
 
 namespace BrunoFalcaoPro;
 
+use Illuminate\Support\Facades\Blade;
 use Eduka\Abstracts\Classes\EdukaServiceProvider;
 
 final class BrunoFalcaoProServiceProvider extends EdukaServiceProvider
