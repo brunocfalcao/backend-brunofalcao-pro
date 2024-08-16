@@ -14,7 +14,7 @@ class BrunoFalcaoProSeeder extends Seeder
             'canonical' => 'backend-brunofalcao-pro',
             'domain' => env('BPRO_DOMAIN'),
             'clarity_code' => env('BPRO_CLARITY_CODE'),
-            'provider_namespace' => '\BrunoFalcaoPro\BrunoFalcaoProServiceProvider',
+            'service_provider_class' => '\BrunoFalcaoPro\BrunoFalcaoProServiceProvider',
         ]);
     }
 }
